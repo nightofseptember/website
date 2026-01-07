@@ -1,0 +1,11 @@
+body {
+    overflow: hidden;
+}
+
+.flex { 
+    display: flex;
+}
+
+.page-body{
+    margin-bottom: 60px;
+}
