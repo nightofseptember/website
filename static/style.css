@@ -2,10 +2,48 @@ body {
     overflow: hidden;
 }
 
+a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    transition: transform 0.2s ease, color 0.2s ease;
+}
+
+a:hover {
+    color: aliceblue;
+    transform: scale(1.1);
+}
+
 .flex { 
     display: flex;
 }
 
+.title {
+    text-align: center;
+    font-size: x-large;
+    width: 100vw;
+}
+
 .page-body{
     margin-bottom: 60px;
+}
+.container {
+    max-width: 100%;
+    width: 100%;
+}
+
+.PanelNav {
+    justify-content: flex-end; /* push content to the right */
+    display: flex;
+    align-items: center;
+}
+
+.nav-right a {
+    margin-left: 15px;
+}
+
+.footer {
+    color: azure;
+    padding: 30px 3% 15px;
+    display: grid;
 }
