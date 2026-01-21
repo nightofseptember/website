@@ -2,41 +2,40 @@ body {
     overflow: hidden;
 }
 
-.flex { 
+.flex {
     display: flex;
 }
 
-a {
-    display: inline-block;
-    color: white;
-    text-decoration: none;
-    font-size: 20px;
-    transition: transform 0.2s ease, color 0.2s ease;
-}
-
-a:hover {
-    color: aliceblue;
-    transform: scale(1.1);
-}
-
-.page-body{
+.page-body {
     margin-bottom: 60px;
 }
+
 .container {
     max-width: 100%;
     width: 100%;
 }
 
 .PanelNav {
-    justify-content: flex-end; /* push content to the right */
+    justify-content: flex-end;
+    /* push content to the right */
     display: flex;
     align-items: center;
     padding-bottom: 10px;
 }
 
 .nav-right a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
     margin-left: 15px;
     padding-right: 20px;
+
+}
+
+.nav-right a:hover {
+    transition: transform 0.2s ease, color 0.2s ease;
+    transform: scale(1.2);
 }
 
 .footer {
@@ -48,4 +47,17 @@ a:hover {
 .footer i {
     font-size: 25px;
     padding-top: 10px;
+}
+
+.footer a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    padding-top: 10px;
+}
+
+.footer a:hover {
+    transition: transform 0.2s ease, color 0.2s ease;
+    transform: scale(1.2);
 }
