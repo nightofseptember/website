@@ -9,7 +9,6 @@ body::before {
     content: "";
     position: fixed;
     inset: 0;
-
     background: inherit; /* reuse body background */
     filter: blur(12px);
     transform: scale(1.1); /* prevents blur edges */
